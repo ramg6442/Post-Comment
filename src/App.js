@@ -33,7 +33,7 @@ import axios from "axios";
           <div className=" p-10  " >
           <div className=" bg-black text-white hover:text-black hover:bg-white h-70 w-60 shadow-md rounded-2xl cursor-pointer font-sans p-2">
           <p className=" ">{value.body}</p>
-         <button className="mt-10 mx-12 p-px bg-red-600 rounded-2xl hover:bg-yello-600" 
+         <button className="mt-10 mx-12 p-px bg-red-600 rounded-2xl hover:bg-yellow-600" 
           onClick={()=>history.push(`/post/${value.id}`)}>click me</button>
          </div>
           </div>
